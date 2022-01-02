@@ -2,6 +2,18 @@ public class Main {
 
     public static void main(String[] args) {
 
+        prostokat prostokat = new prostokat();
+        prostokat.nazwaFigury("prostokat");
+        System.out.println(prostokat.obwod(2, 3));
+        System.out.println(prostokat.pole(4, 5));
+
+
+        kwadrat kwadrat = new kwadrat();
+        kwadrat.nazwaFigury("kwadrat");
+        System.out.println(kwadrat.obwod(123, 312));
+        System.out.println(kwadrat.pole(31313, 6456));
+
+
         /* zad.1
         a) stworzyć klasę abstrakcyjną Figura
         b) stworzyć metody abstrakcyjne pole() i obwod()
